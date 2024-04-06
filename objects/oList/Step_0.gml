@@ -1,0 +1,1 @@
+GetCivilizationCosts(global.CurrentCivilization);

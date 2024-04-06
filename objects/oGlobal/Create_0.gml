@@ -8,3 +8,5 @@ global.Army = 0;
 global.Buildings = 0;
 
 global.FirstCard = true;
+
+global.CurrentCivilization = 0;

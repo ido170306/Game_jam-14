@@ -2,7 +2,7 @@ function CreateResourceStatus()
 {
 	for (var i = 0; i<5; i++)
 	{
-		with (instance_create_layer(x+64,room_height/2-(128)+(64*i),"Resources",oResourceStatus))
+		with (instance_create_layer(x+360,room_height/2.5-(128)+(64*i),"Resources",oResourceStatus))
 		{
 			show_debug_message(y);
 			switch(i)
