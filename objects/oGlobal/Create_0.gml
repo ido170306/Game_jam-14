@@ -10,3 +10,4 @@ global.Buildings = 0;
 global.FirstCard = true;
 
 global.CurrentCivilization = 0;
+global.DeathScreen = false;

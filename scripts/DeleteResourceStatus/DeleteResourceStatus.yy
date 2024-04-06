@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "GetCivilizationCosts",
+  "name": "DeleteResourceStatus",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Civilization",
-    "path": "folders/Scripts/Civilization.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }

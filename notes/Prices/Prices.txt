@@ -1,0 +1,51 @@
+-Trade-
+Pros: +3 Resources, +2 Food
+Cons: -1 Population
+
+-Birth-
+Pros: +2 Population
+Cons: -1 Food
+
+-Farming-
+Pros: +5 Food
+Cons: -1 Resource, -2 Population
+
+-Recruit-
+Pros: +1 Army
+Cons: -3 Resources, -3 Population
+
+-Build-
+Pros: +2 Buildings
+Cons: -4 Resources, -1 Population
+
+-Hunt-
+Pros: +8 Food
+Cons: -2 Resources, -2 Population
+
+-Destroy-
+Pros: +4 Resources
+Cons: -1 Population, -2 Buildings
+
+-Dismiss-
+Pros: +3 Population
+Cons: -1 Army
+
+-Steal-
+Pros: +5 Resources, +2 Food, +1 Population
+Cons: -1 Army
+
+-Breed-
+Pros: +6 Food
+Cons: -2 Resources
+
+-Lure-
+Pros: +5 Population
+Cons: -5 Food, -2 Resources
+
+-Mine-
+Pros: +5 Resources
+Cons: -2 Food, -1 Population
+
+-Baby Boom-
+Pros: +10 Population
+Cons: -10 Food
