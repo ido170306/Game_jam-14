@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "ResourceStatus",
+    "path": "folders/Scripts/ResourceStatus.yy",
   },
 }
