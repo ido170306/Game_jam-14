@@ -3,6 +3,12 @@ function GetCardAttributes(argument0)
 {
 	switch (argument0)
 	{
+		case -1:
+			NameCard = "Settlement";
+			Pros = "+25 Resources\n+25 Food\n+5 Population\n+1 Army\n+3 Buildings";
+			Cons = "None";
+		break;
+		
 		case 0:
 			NameCard = "Resources";
 			Pros = "+5 Resources";
