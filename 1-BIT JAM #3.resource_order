@@ -45,6 +45,7 @@
     {"name":"DeleteCards","order":1,"path":"scripts/DeleteCards/DeleteCards.yy",},
     {"name":"GetCivilizationCosts","order":1,"path":"scripts/GetCivilizationCosts/GetCivilizationCosts.yy",},
     {"name":"sMouse","order":3,"path":"sprites/sMouse/sMouse.yy",},
+    {"name":"sVillage","order":2,"path":"sprites/sVillage/sVillage.yy",},
     {"name":"IsValidToTransform","order":9,"path":"scripts/IsValidToTransform/IsValidToTransform.yy",},
     {"name":"sBuildingsIcon","order":4,"path":"sprites/sBuildingsIcon/sBuildingsIcon.yy",},
     {"name":"oScreen","order":4,"path":"objects/oScreen/oScreen.yy",},

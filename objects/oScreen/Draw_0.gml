@@ -20,6 +20,10 @@ if (oScreen.image_alpha == 1)
 			case 1:
 				draw_sprite(sHamlet,0,x,y);
 			break;
+			
+			case 2:
+				draw_sprite(sVillage,0,x,y);
+			break;
 		}
 	}
 }

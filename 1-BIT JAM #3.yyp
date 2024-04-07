@@ -71,6 +71,7 @@
     {"id":{"name":"Idea","path":"notes/Idea/Idea.yy",},},
     {"id":{"name":"GetCivilizationCosts","path":"scripts/GetCivilizationCosts/GetCivilizationCosts.yy",},},
     {"id":{"name":"sMouse","path":"sprites/sMouse/sMouse.yy",},},
+    {"id":{"name":"sVillage","path":"sprites/sVillage/sVillage.yy",},},
     {"id":{"name":"CreateResourceStatus","path":"scripts/CreateResourceStatus/CreateResourceStatus.yy",},},
     {"id":{"name":"IsValidToTransform","path":"scripts/IsValidToTransform/IsValidToTransform.yy",},},
     {"id":{"name":"sBuildingsIcon","path":"sprites/sBuildingsIcon/sBuildingsIcon.yy",},},
