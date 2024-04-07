@@ -49,3 +49,15 @@ Cons: -2 Food, -1 Population
 -Baby Boom-
 Pros: +10 Population
 Cons: -10 Food
+
+-Scout-
+Pros: +10 Resources
+Cons: -4 Population
+
+-Real Estate-
+Pros: +5 Resources, +5 Food
+Cons: -3 Buildings
+
+-Engineering-
+Pros: +4 Buildings
+Cons: -5 Resources, -3 Population

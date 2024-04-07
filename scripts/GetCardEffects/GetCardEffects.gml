@@ -85,5 +85,22 @@ function GetCardEffects(argument0)
 			global.Population += 10;
 			global.Food += -10;
 		break;
+		
+		case 13:
+			global.Resources += 10;
+			global.Population += -4;
+		break;
+		
+		case 14:
+			global.Resources += 5;
+			global.Food += 5;
+			global.Buildings += -3;
+		break;
+		
+		case 15:
+			global.Buildings += 4;
+			global.Resources += -5;
+			global.Population += -3;
+		break;
 	}
 }

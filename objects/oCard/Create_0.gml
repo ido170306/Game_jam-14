@@ -5,7 +5,7 @@ if (global.FirstCard)
 }
 else
 {
-	CardNumber = irandom_range(0,12); //select what card to show
+	CardNumber = irandom_range(0,15); //select what card to show
 }
 NameCard = ""; //The Name of the Card
 Pros = ""; //The Pros of the card
