@@ -23,6 +23,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"oGameNameMainMenu","order":8,"path":"objects/oGameNameMainMenu/oGameNameMainMenu.yy",},
     {"name":"MouseHover","order":1,"path":"scripts/MouseHover/MouseHover.yy",},
     {"name":"sHamlet","order":1,"path":"sprites/sHamlet/sHamlet.yy",},
     {"name":"ButtonsArray","order":2,"path":"scripts/ButtonsArray/ButtonsArray.yy",},

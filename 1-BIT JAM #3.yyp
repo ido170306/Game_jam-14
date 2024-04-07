@@ -40,6 +40,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"oGameNameMainMenu","path":"objects/oGameNameMainMenu/oGameNameMainMenu.yy",},},
     {"id":{"name":"sColorTheme","path":"sprites/sColorTheme/sColorTheme.yy",},},
     {"id":{"name":"MouseHover","path":"scripts/MouseHover/MouseHover.yy",},},
     {"id":{"name":"sHamlet","path":"sprites/sHamlet/sHamlet.yy",},},

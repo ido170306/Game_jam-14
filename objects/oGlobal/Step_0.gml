@@ -24,7 +24,7 @@ if (global.FirstCard == false)
 		}
 		else
 		{
-			if (!instance_exists(oCard))
+			if (!instance_exists(oCard)) && (!IsValidToTransform())
 			{
 				CreateCards();
 			}

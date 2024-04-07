@@ -17,6 +17,10 @@ if (Name == "Transform")
 	if (IsValidToTransform())
 	{
 		image_alpha = 1;
+		if (instance_exists(oCard))
+		{
+			instance_destroy(oCard);
+		}
 	}
 	else
 	{
