@@ -12,6 +12,7 @@
     {"name":"Buttons","order":14,"path":"folders/Scripts/Buttons.yy",},
     {"name":"Cards","order":5,"path":"folders/Scripts/Cards.yy",},
     {"name":"Civilization","order":10,"path":"folders/Scripts/Civilization.yy",},
+    {"name":"Effects","order":15,"path":"folders/Scripts/Effects.yy",},
     {"name":"ResourceStatus","order":13,"path":"folders/Scripts/ResourceStatus.yy",},
     {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
@@ -21,7 +22,6 @@
     {"name":"ResourcesIcons","order":4,"path":"folders/Sprites/ResourcesIcons.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Effects","order":15,"path":"folders/Scripts/Effects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oGameNameMainMenu","order":8,"path":"objects/oGameNameMainMenu/oGameNameMainMenu.yy",},

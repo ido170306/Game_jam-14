@@ -12,3 +12,5 @@ Pros = ""; //The Pros of the card
 Cons = ""; //The Cons of the card
 GetCardAttributes(CardNumber);
 yy = ystart;
+Duration = 0.25*game_get_speed(gamespeed_fps);
+Timer = Duration;

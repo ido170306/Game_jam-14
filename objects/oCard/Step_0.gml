@@ -18,6 +18,7 @@ if (MouseHover())
 		{
 			with (instance_find(oCard,i))
 			{
+				Timer = 0;
 				CardNumber = irandom_range(0,16);
 				GetCardAttributes(CardNumber);
 			}
@@ -28,4 +29,13 @@ if (MouseHover())
 else
 {
 	yy = ystart;
+}
+
+if (Timer < Duration)
+{
+	Timer++;
+}
+else
+{
+	x = xstart;
 }
