@@ -50,6 +50,7 @@
     {"id":{"name":"GetCardAttributes","path":"scripts/GetCardAttributes/GetCardAttributes.yy",},},
     {"id":{"name":"oMainMenu","path":"objects/oMainMenu/oMainMenu.yy",},},
     {"id":{"name":"sScreen","path":"sprites/sScreen/sScreen.yy",},},
+    {"id":{"name":"sTown","path":"sprites/sTown/sTown.yy",},},
     {"id":{"name":"sFoodIcon","path":"sprites/sFoodIcon/sFoodIcon.yy",},},
     {"id":{"name":"Prices","path":"notes/Prices/Prices.yy",},},
     {"id":{"name":"CreateCards","path":"scripts/CreateCards/CreateCards.yy",},},

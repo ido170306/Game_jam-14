@@ -102,5 +102,11 @@ function GetCardEffects(argument0)
 			global.Resources += -5;
 			global.Population += -3;
 		break;
+		
+		case 16:
+			global.Army += 3;
+			global.Resources += -6;
+			global.Population += -3;
+		break;
 	}
 }

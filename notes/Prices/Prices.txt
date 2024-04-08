@@ -61,3 +61,7 @@ Cons: -3 Buildings
 -Engineering-
 Pros: +4 Buildings
 Cons: -5 Resources, -3 Population
+
+-Training-
+Pros: +3 Army
+Cons: -6 Resources, -3 Population
