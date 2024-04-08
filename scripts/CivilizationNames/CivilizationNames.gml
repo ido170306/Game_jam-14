@@ -16,21 +16,18 @@ function CivilizationNames(argument0)
 			return("-Town-");
 		
 		case 4:
-			return("-City-");
-		
-		case 5:
 			return("-Kingdom-");
 		
-		case 6:
+		case 5:
 			return("-Empire-");
 		
-		case 7:
+		case 6:
 			return("-Federation-");
 		
-		case 8:
+		case 7:
 			return("-Space Empire-");
 		
-		case 9:
+		case 8:
 			return("-Space Federation-");
 	}
 }

@@ -20,6 +20,9 @@
   "height": 405,
   "HTile": false,
   "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"eaab635c-3287-46f8-a95f-323f4d8bfd2d","blendMode":0,"displayName":"Well","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8b4bde0d-f6bc-4355-9c0b-e800e8e2542a","blendMode":0,"displayName":"Fences","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"631985d1-7eb7-4977-b93f-d719c53655ff","blendMode":0,"displayName":"Graves","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"db556e23-fca9-411f-a0dc-6ae3481a8e60","blendMode":0,"displayName":"Houses","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b7be88fe-53f1-4523-aa51-52a580b42c9f","blendMode":0,"displayName":"BG","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3d2f6b24-31b1-45aa-920a-945892da7412","blendMode":0,"displayName":"Frame","isLocked":false,"opacity":100.0,"visible":false,},

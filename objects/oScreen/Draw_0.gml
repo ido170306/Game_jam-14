@@ -24,6 +24,10 @@ if (oScreen.image_alpha == 1)
 			case 2:
 				draw_sprite(sVillage,0,x,y);
 			break;
+			
+			case 3:
+				draw_sprite(sTown,0,x,y);
+			break;
 		}
 	}
 }
