@@ -21,6 +21,7 @@
     {"name":"ResourcesIcons","order":4,"path":"folders/Sprites/ResourcesIcons.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Effects","order":15,"path":"folders/Scripts/Effects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oGameNameMainMenu","order":8,"path":"objects/oGameNameMainMenu/oGameNameMainMenu.yy",},

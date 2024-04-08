@@ -1,6 +1,6 @@
 if (MouseHover())
 {
-	y = ystart-4;
+	yy = ystart-4;
 	if (mouse_check_button_pressed(mb_left))
 	{
 		GetCardEffects(CardNumber);
@@ -13,7 +13,7 @@ if (MouseHover())
 			global.FirstCard = false;
 			DeleteCards();
 		}
-	
+		
 		for (var i = 0; i<instance_number(oCard); i++)
 		{
 			with (instance_find(oCard,i))
@@ -27,5 +27,5 @@ if (MouseHover())
 }
 else
 {
-	y = ystart;
+	yy = ystart;
 }

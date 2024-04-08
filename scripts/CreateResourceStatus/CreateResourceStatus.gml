@@ -4,7 +4,6 @@ function CreateResourceStatus()
 	{
 		with (instance_create_layer(x+360,room_height/2.5-(128)+(64*i),"Resources",oResourceStatus))
 		{
-			show_debug_message(y);
 			switch(i)
 			{
 				case 0:

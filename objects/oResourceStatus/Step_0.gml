@@ -1,22 +1,80 @@
-switch (Name)
+if (Update <= 0)
 {
-	case "Resources":
-		Number = global.Resources;
-	break;
+	switch (Name)
+	{
+		case "Resources":
+			if (Number < global.Resources)
+			{
+				Number++;
+			}
+			else
+			{
+				if (Number > global.Resources)
+				{
+					Number--;
+				}
+			}
+		break;
 	
-	case "Food":
-		Number = global.Food;
-	break;
+		case "Food":
+			if (Number < global.Food)
+			{
+				Number++;
+			}
+			else
+			{
+				if (Number > global.Food)
+				{
+					Number--;
+				}
+			}
+		break;
 	
-	case "Population":
-		Number = global.Population;
-	break;
+		case "Population":
+			if (Number < global.Population)
+			{
+				Number++;
+			}
+			else
+			{
+				if (Number > global.Population)
+				{
+					Number--;
+				}
+			}
+		break;
 	
-	case "Army":
-		Number = global.Army;
-	break;
+		case "Army":
+			if (Number < global.Army)
+			{
+				Number++;
+			}
+			else
+			{
+				if (Number > global.Army)
+				{
+					Number--;
+				}
+			}
+		break;
 	
-	case "Buildings":
-		Number = global.Buildings;
-	break;
+		case "Buildings":
+			if (Number < global.Buildings)
+			{
+				Number++;
+			}
+			else
+			{
+				if (Number > global.Buildings)
+				{
+					Number--;
+				}
+			}
+		break;
+	}
+	Update = Duration;
+}
+else
+{
+	Update--;
 }
