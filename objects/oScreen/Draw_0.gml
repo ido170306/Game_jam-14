@@ -28,6 +28,10 @@ if (oScreen.image_alpha == 1)
 			case 3:
 				draw_sprite(sTown,0,x,y);
 			break;
+			
+			case 4:
+				draw_sprite(sKingdom,0,x,y);
+			break;
 		}
 	}
 }
