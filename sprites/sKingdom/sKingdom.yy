@@ -20,7 +20,8 @@
   "height": 405,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"686c82cd-081f-40a0-a554-7227dadf4287","blendMode":0,"displayName":"Wall","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"29cf6540-d3e9-4330-b095-f33fa7875371","blendMode":0,"displayName":"Horse Shed","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"686c82cd-081f-40a0-a554-7227dadf4287","blendMode":0,"displayName":"Catle","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b7be88fe-53f1-4523-aa51-52a580b42c9f","blendMode":0,"displayName":"BG","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3d2f6b24-31b1-45aa-920a-945892da7412","blendMode":0,"displayName":"Frame","isLocked":false,"opacity":100.0,"visible":false,},
   ],

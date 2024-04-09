@@ -65,3 +65,7 @@ Cons: -5 Resources, -3 Population
 -Training-
 Pros: +3 Army
 Cons: -6 Resources, -3 Population
+
+-War-
+Pros: +10 Resources, +8 Food
+Cons: -3 Army, -2 Population

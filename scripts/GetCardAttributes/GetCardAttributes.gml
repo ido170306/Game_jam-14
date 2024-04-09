@@ -110,5 +110,11 @@ function GetCardAttributes(argument0)
 			Pros = "+3 Army";
 			Cons = "-6 Resources\n-3 Population";
 		break;
+		
+		case 17:
+			NameCard = "War";
+			Pros = "+10 Resources\n+8 Food";
+			Cons = "-3 Army\n-2 Population";
+		break;
 	}
 }

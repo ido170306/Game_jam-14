@@ -19,7 +19,7 @@ if (MouseHover())
 			with (instance_find(oCard,i))
 			{
 				Timer = 0;
-				CardNumber = irandom_range(0,16);
+				CardNumber = irandom_range(0,17);
 				GetCardAttributes(CardNumber);
 			}
 		}

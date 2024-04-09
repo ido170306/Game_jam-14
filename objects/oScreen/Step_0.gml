@@ -1,0 +1,4 @@
+if (Timer < Duration)
+{
+	Timer++;
+}
