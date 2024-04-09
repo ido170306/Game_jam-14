@@ -3,6 +3,8 @@ if (MouseHover())
 	yy = ystart-4;
 	if (mouse_check_button_pressed(mb_left))
 	{
+		randomize();
+		audio_play_sound(Shake,0,false,1,0,random_range(0.9,1.1));
 		GetCardEffects(CardNumber);
 		oScreen.image_alpha = 1;
 		oResourceStatus.image_alpha = 1;
