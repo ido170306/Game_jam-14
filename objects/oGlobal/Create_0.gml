@@ -9,5 +9,5 @@ global.Buildings = 0;
 
 global.FirstCard = true;
 
-global.CurrentCivilization = 0;
+global.CurrentCivilization = -1;
 global.DeathScreen = false;

@@ -3,6 +3,9 @@ function CivilizationNames(argument0)
 {
 	switch (argument0)
 	{
+		case -1:
+			return("Press the Settlement Card when you are Ready!\n(You can exit the game, but it won't save any progress)");
+		
 		case 0:
 			return("-Settlement-");
 		

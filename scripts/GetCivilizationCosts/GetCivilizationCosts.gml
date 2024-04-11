@@ -2,6 +2,14 @@ function GetCivilizationCosts(argument0)
 {
 	switch (argument0)
 	{
+		case -1:
+			CostList[0] = 100; //Need to fixed Visual Bug (Transform Button shows up because it's valid)
+			CostList[1] = 100;
+			CostList[2] = 100;
+			CostList[3] = 100;
+			CostList[4] = 100;
+		break;
+		
 		case 0:
 			CostList[0] = 30;
 			CostList[1] = 30;

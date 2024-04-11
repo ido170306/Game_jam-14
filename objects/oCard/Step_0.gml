@@ -12,6 +12,7 @@ if (MouseHover())
 		
 		if (global.FirstCard)
 		{
+			global.CurrentCivilization++;
 			global.FirstCard = false;
 			DeleteCards();
 		}
