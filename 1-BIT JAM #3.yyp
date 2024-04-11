@@ -42,6 +42,7 @@
   "resources": [
     {"id":{"name":"oGameNameMainMenu","path":"objects/oGameNameMainMenu/oGameNameMainMenu.yy",},},
     {"id":{"name":"oSettingsGlobal","path":"objects/oSettingsGlobal/oSettingsGlobal.yy",},},
+    {"id":{"name":"sEmpire","path":"sprites/sEmpire/sEmpire.yy",},},
     {"id":{"name":"sColorTheme","path":"sprites/sColorTheme/sColorTheme.yy",},},
     {"id":{"name":"MouseHover","path":"scripts/MouseHover/MouseHover.yy",},},
     {"id":{"name":"sHamlet","path":"sprites/sHamlet/sHamlet.yy",},},

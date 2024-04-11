@@ -25,6 +25,7 @@
   "ResourceOrderSettings": [
     {"name":"oGameNameMainMenu","order":8,"path":"objects/oGameNameMainMenu/oGameNameMainMenu.yy",},
     {"name":"oSettingsGlobal","order":9,"path":"objects/oSettingsGlobal/oSettingsGlobal.yy",},
+    {"name":"sEmpire","order":5,"path":"sprites/sEmpire/sEmpire.yy",},
     {"name":"MouseHover","order":1,"path":"scripts/MouseHover/MouseHover.yy",},
     {"name":"sHamlet","order":1,"path":"sprites/sHamlet/sHamlet.yy",},
     {"name":"ButtonsArray","order":2,"path":"scripts/ButtonsArray/ButtonsArray.yy",},
