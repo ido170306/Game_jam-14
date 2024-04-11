@@ -78,7 +78,7 @@ function GetCardEffects(argument0)
 		case 11:
 			global.Resources += 5;
 			global.Food += -2;
-			global.Population += -2;
+			global.Population += -1;
 		break;
 		
 		case 12:
