@@ -32,6 +32,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ResourcesIcons","folderPath":"folders/Sprites/ResourcesIcons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Misc","folderPath":"folders/Sprites/Misc.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -41,8 +42,10 @@
   },
   "resources": [
     {"id":{"name":"oGameNameMainMenu","path":"objects/oGameNameMainMenu/oGameNameMainMenu.yy",},},
+    {"id":{"name":"sArmyIcon18Mac","path":"sprites/sArmyIcon18Mac/sArmyIcon18Mac.yy",},},
     {"id":{"name":"oSettingsGlobal","path":"objects/oSettingsGlobal/oSettingsGlobal.yy",},},
     {"id":{"name":"sEmpire","path":"sprites/sEmpire/sEmpire.yy",},},
+    {"id":{"name":"sCoverImg","path":"sprites/sCoverImg/sCoverImg.yy",},},
     {"id":{"name":"sColorTheme","path":"sprites/sColorTheme/sColorTheme.yy",},},
     {"id":{"name":"MouseHover","path":"scripts/MouseHover/MouseHover.yy",},},
     {"id":{"name":"sHamlet","path":"sprites/sHamlet/sHamlet.yy",},},

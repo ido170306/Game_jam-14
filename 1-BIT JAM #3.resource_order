@@ -21,11 +21,13 @@
     {"name":"ResourcesIcons","order":4,"path":"folders/Sprites/ResourcesIcons.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Misc","order":9,"path":"folders/Sprites/Misc.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oGameNameMainMenu","order":8,"path":"objects/oGameNameMainMenu/oGameNameMainMenu.yy",},
     {"name":"oSettingsGlobal","order":9,"path":"objects/oSettingsGlobal/oSettingsGlobal.yy",},
     {"name":"sEmpire","order":5,"path":"sprites/sEmpire/sEmpire.yy",},
+    {"name":"sCoverImg","order":1,"path":"sprites/sCoverImg/sCoverImg.yy",},
     {"name":"MouseHover","order":1,"path":"scripts/MouseHover/MouseHover.yy",},
     {"name":"sHamlet","order":1,"path":"sprites/sHamlet/sHamlet.yy",},
     {"name":"ButtonsArray","order":2,"path":"scripts/ButtonsArray/ButtonsArray.yy",},
