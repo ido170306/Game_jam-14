@@ -10,47 +10,54 @@ if (oScreen.image_alpha == 1)
 	}
 	else
 	{
-		if (CurrentCiv == global.CurrentCivilization)
+		if (global.CurrentCivilization != 6)
 		{
-			if (Timer == Duration)
+			if (CurrentCiv == global.CurrentCivilization)
 			{
-				draw_sprite_ext(sScreen,0,room_width/2,room_height/2.5,1,1,0,c_white,1);
-				switch (global.CurrentCivilization)
+				if (Timer == Duration)
 				{
-					case 0:
-						draw_sprite(sSettlement,0,x,y);
-					break;
+					draw_sprite_ext(sScreen,0,room_width/2,room_height/2.5,1,1,0,c_white,1);
+					switch (global.CurrentCivilization)
+					{
+						case 0:
+							draw_sprite(sSettlement,0,x,y);
+						break;
 			
-					case 1:
-						draw_sprite(sHamlet,0,x,y);
-					break;
+						case 1:
+							draw_sprite(sHamlet,0,x,y);
+						break;
 			
-					case 2:
-						draw_sprite(sVillage,0,x,y);
-					break;
+						case 2:
+							draw_sprite(sVillage,0,x,y);
+						break;
 			
-					case 3:
-						draw_sprite(sTown,0,x,y);
-					break;
+						case 3:
+							draw_sprite(sTown,0,x,y);
+						break;
 			
-					case 4:
-						draw_sprite(sKingdom,0,x,y);
-					break;
+						case 4:
+							draw_sprite(sKingdom,0,x,y);
+						break;
 			
-					case 5:
-						draw_sprite(sEmpire,0,x,y);
-					break;
+						case 5:
+							draw_sprite(sEmpire,0,x,y);
+						break;
+					}
+				}
+				else
+				{
+					draw_sprite_ext(sScreen,0,room_width/2+random_range(-1,1),room_height/2.5+random_range(-1,1),1,1,0,c_white,1);
 				}
 			}
 			else
 			{
-				draw_sprite_ext(sScreen,0,room_width/2+random_range(-1,1),room_height/2.5+random_range(-1,1),1,1,0,c_white,1);
+				CurrentCiv = global.CurrentCivilization;
+				Timer = 0;
 			}
 		}
 		else
 		{
-			CurrentCiv = global.CurrentCivilization;
-			Timer = 0;
+			draw_text(x,y,string("You Finished the game! (You Win)\nPlease Return to the Main-Menu Or Start a new Game."));
 		}
 	}
 }

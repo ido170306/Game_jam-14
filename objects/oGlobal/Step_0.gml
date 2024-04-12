@@ -1,32 +1,61 @@
 if (global.FirstCard == false)
 {
-	if (global.DeathScreen == false)
+	if (global.CurrentCivilization != 6)
 	{
-		if (IsUnderZero())
+		if (global.DeathScreen == false)
 		{
-			global.DeathScreen = true;
-			DeleteCards();
-			DeleteResourceStatus();
-			instance_destroy(oButton);
-			instance_destroy(oList);
-			if (!instance_exists(oButton))
+			if (IsUnderZero())
 			{
-				with(instance_create_layer(room_width/2,room_height/2,"Cards",oButton))
+				global.DeathScreen = true;
+				DeleteCards();
+				DeleteResourceStatus();
+				instance_destroy(oButton);
+				instance_destroy(oList);
+				if (!instance_exists(oButton))
 				{
-					Name = "New Game";
-				}
+					with(instance_create_layer(room_width/2,room_height/2,"Cards",oButton))
+					{
+						Name = "New Game";
+					}
 		
-				with(instance_create_layer(room_width/2,room_height/2+56,"Cards",oButton))
+					with(instance_create_layer(room_width/2,room_height/2+56,"Cards",oButton))
+					{
+						Name = "Exit";
+					}
+				}
+			}
+			else
+			{
+				if (!instance_exists(oCard)) && (!IsValidToTransform())
 				{
-					Name = "Exit";
+					CreateCards();
 				}
 			}
 		}
-		else
+	}
+	else
+	{
+		DeleteCards();
+		DeleteResourceStatus();
+		for (var i = 0; i<instance_number(oButton); i++)
 		{
-			if (!instance_exists(oCard)) && (!IsValidToTransform())
+			var Btn = instance_find(oButton,i)
+			if (Btn.Name == "Transform")
 			{
-				CreateCards();
+				instance_destroy(Btn);
+			}
+		}
+		instance_destroy(oList);
+		if (!instance_exists(oButton))
+		{
+			with(instance_create_layer(room_width/2,room_height/2,"Cards",oButton))
+			{
+				Name = "New Game";
+			}
+		
+			with(instance_create_layer(room_width/2,room_height/2+56,"Cards",oButton))
+			{
+				Name = "Exit";
 			}
 		}
 	}
