@@ -51,11 +51,11 @@ function GetCivilizationCosts(argument0)
 		break;
 		
 		case 5:
-			CostList[0] = 500;
-			CostList[1] = 300;
-			CostList[2] = 250;
-			CostList[3] = 25;
-			CostList[4] = 85;
+			CostList[0] = 1000;
+			CostList[1] = 1000;
+			CostList[2] = 1000;
+			CostList[3] = 1000;
+			CostList[4] = 1000;
 		break;
 	}
 }

@@ -36,6 +36,10 @@ if (oScreen.image_alpha == 1)
 					case 4:
 						draw_sprite(sKingdom,0,x,y);
 					break;
+			
+					case 5:
+						draw_sprite(sEmpire,0,x,y);
+					break;
 				}
 			}
 			else

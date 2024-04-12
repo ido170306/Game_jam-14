@@ -23,14 +23,5 @@ function CivilizationNames(argument0)
 		
 		case 5:
 			return("-Empire-");
-		
-		case 6:
-			return("-Federation-");
-		
-		case 7:
-			return("-Space Empire-");
-		
-		case 8:
-			return("-Space Federation-");
 	}
 }
