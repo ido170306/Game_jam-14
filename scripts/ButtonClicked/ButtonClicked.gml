@@ -24,6 +24,7 @@ function ButtonClicked(argument0)
 		case "Settings":
 			global.Settings = true;
 			instance_create_layer(room_width/2,room_height/2.5,layer,oAudioSetting);
+			instance_create_layer(room_width/2,oAudioSetting.y+54,layer,oFullscreenSetting);
 			instance_destroy(oButton);
 		break;
 		
@@ -32,6 +33,10 @@ function ButtonClicked(argument0)
 			if (instance_exists(oAudioSetting))
 			{
 				instance_destroy(oAudioSetting);
+			}
+			if (instance_exists(oFullscreenSetting))
+			{
+				instance_destroy(oFullscreenSetting);
 			}
 			if (instance_exists(oSettingsSigns))
 			{

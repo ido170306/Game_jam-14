@@ -1,1 +1,0 @@
-global.Volume = 100;

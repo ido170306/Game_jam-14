@@ -8,5 +8,12 @@ function PlusValue(argument0)
 				global.Volume += +5;
 			}
 		break;
+		
+		case "FullScreen":
+			if (global.FullScreen == false)
+			{
+				global.FullScreen = true;
+			}
+		break;
 	}
 }
